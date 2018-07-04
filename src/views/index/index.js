@@ -20,7 +20,7 @@ export class Index extends Component {
           />
         </Col>
         <Col className="indexList" md={18} xs={24}>
-          {/* <IndexList></IndexList> */}
+          <IndexList></IndexList>
         </Col>
       </Row>
     )

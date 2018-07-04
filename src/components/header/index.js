@@ -9,7 +9,7 @@ export class Header extends Component {
         <Layout.Header>
             <Row className="wrap">
                 <Col md={6} xs={24}>
-                    <h1 id="logo">Logo</h1>
+                    <h1 id="logo">cNode</h1>
                 </Col>
                 <Col md={18} xs={0}>
                     <Divider className="headerDivider" type="vertical"></Divider>
