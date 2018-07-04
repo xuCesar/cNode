@@ -4,11 +4,11 @@ import { Menu } from 'antd'
 
 export class SideNav extends Component {
   render() {
-    let {id, mode} = this.props
+    // let {id, mode} = this.props
     return (
         <Menu 
-            id={this.props.id}
-            mode={this.props.mode}
+            id = {this.props.id}
+            mode = {this.props.mode}
         >
             <Menu.Item> <Link to="/index/all" >全部</Link> </Menu.Item>
             <Menu.Item> <Link to="/index/good" >精华</Link> </Menu.Item>

@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
 import { Row, Col } from 'antd'
 import SideNav from '../../components/side'
-let arr = []
-for (let i = 0; i < 100; i++) {
-  arr.push(<li>这是第{i}个li</li>)
-}
-export class Index extends Component {
+import IndexList from './list'
 
+export class Index extends Component {
   render() {
     return (
       <Row className="wrap" >
@@ -23,7 +20,7 @@ export class Index extends Component {
           />
         </Col>
         <Col className="indexList" md={18} xs={24}>
-          {/* {arr} */}
+          {/* <IndexList></IndexList> */}
         </Col>
       </Row>
     )

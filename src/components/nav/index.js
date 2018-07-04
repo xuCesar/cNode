@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export class index extends Component {
   render() {
-    let {mode, id} = this.props
+    // let {mode, id} = this.props
     return (
         <Menu id={this.props.id} mode={this.props.mode} >
             <Menu.Item> <Link to="/index"> <Icon type="home" /> 首页</Link> </Menu.Item>
